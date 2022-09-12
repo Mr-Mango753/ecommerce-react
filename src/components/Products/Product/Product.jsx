@@ -17,8 +17,11 @@ const Product = ({ product, onAddToCart }) => {
           </div>
         </div>
     </div>
-    <div className="cartAndName">
-      <h1 className='productName'>{product.name}</h1><span><a onClick={() => onAddToCart(product.id)}></a></span>
+    <div className='flex-bottom'>
+      <div className="cartAndName">
+        <h1 className='productName'>{product.name}</h1><span><a onClick={() => onAddToCart(product.id)}></a></span>
+      </div>
+      <h5 className='product-price'>${product.price}</h5>
     </div>
     </>
   )

@@ -185,3 +185,12 @@
   font-size: 30px;
   font-weight: 100;
 }
+
+.flex-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price {
+  padding-right: 40px;
+}

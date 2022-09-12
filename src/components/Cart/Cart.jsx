@@ -48,7 +48,6 @@ const Cart = ({ handleEmptyCart, cart }) => {
 
   return (
     <div className='cart'>
-      <Typography className={classes.title} variant='h3' >Your Shopping Cart</Typography>
         <Container>
             {/* { cartLocal == [] ? EmptyCart } */}
             <div className={classes.toolbar} /> 
