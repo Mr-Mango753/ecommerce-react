@@ -1,0 +1,13 @@
+h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.order {
+    font-size: 25px;
+}
+
+.total {
+    font-size: 30px;
+    font-weight: 500;
+}
